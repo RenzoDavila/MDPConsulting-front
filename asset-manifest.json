@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/MDPConsulting-front/static/css/main.0af227c7.chunk.css",
+    "main.js": "/MDPConsulting-front/static/js/main.cac115f3.chunk.js",
+    "main.js.map": "/MDPConsulting-front/static/js/main.cac115f3.chunk.js.map",
+    "runtime-main.js": "/MDPConsulting-front/static/js/runtime-main.afecc77f.js",
+    "runtime-main.js.map": "/MDPConsulting-front/static/js/runtime-main.afecc77f.js.map",
+    "static/css/2.af3c1da9.chunk.css": "/MDPConsulting-front/static/css/2.af3c1da9.chunk.css",
+    "static/js/2.9914627c.chunk.js": "/MDPConsulting-front/static/js/2.9914627c.chunk.js",
+    "static/js/2.9914627c.chunk.js.map": "/MDPConsulting-front/static/js/2.9914627c.chunk.js.map",
+    "index.html": "/MDPConsulting-front/index.html",
+    "precache-manifest.6761c16f1bf252d6531a54514259faf0.js": "/MDPConsulting-front/precache-manifest.6761c16f1bf252d6531a54514259faf0.js",
+    "service-worker.js": "/MDPConsulting-front/service-worker.js",
+    "static/css/2.af3c1da9.chunk.css.map": "/MDPConsulting-front/static/css/2.af3c1da9.chunk.css.map",
+    "static/css/main.0af227c7.chunk.css.map": "/MDPConsulting-front/static/css/main.0af227c7.chunk.css.map",
+    "static/js/2.9914627c.chunk.js.LICENSE.txt": "/MDPConsulting-front/static/js/2.9914627c.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/MDPConsulting-front/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.afecc77f.js",
+    "static/css/2.af3c1da9.chunk.css",
+    "static/js/2.9914627c.chunk.js",
+    "static/css/main.0af227c7.chunk.css",
+    "static/js/main.cac115f3.chunk.js"
+  ]
+}
