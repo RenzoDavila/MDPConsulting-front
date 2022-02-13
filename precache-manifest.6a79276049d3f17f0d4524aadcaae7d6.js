@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ecf20a809c260cb0e57fb38a98c96e0c",
+    "revision": "9498d0010727c6fc4405beb2dac60b8f",
     "url": "/MDPConsulting-front/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MDPConsulting-front/static/css/2.af3c1da9.chunk.css"
   },
   {
-    "revision": "5a706f1ad4eef0e1d699",
+    "revision": "55e1fe7d492ac2966072",
     "url": "/MDPConsulting-front/static/css/main.0af227c7.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/MDPConsulting-front/static/js/2.9914627c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5a706f1ad4eef0e1d699",
-    "url": "/MDPConsulting-front/static/js/main.d33b6268.chunk.js"
+    "revision": "55e1fe7d492ac2966072",
+    "url": "/MDPConsulting-front/static/js/main.545512ea.chunk.js"
   },
   {
     "revision": "a309827c6a6cd14426f5",
