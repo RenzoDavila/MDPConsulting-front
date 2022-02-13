@@ -74,7 +74,7 @@ class App extends Component {
   };
 
   peticionDelete = () => {
-    axios.delete(url + this.state.form.cli_id).then((response) => {
+    axios.delete(url + "eliminar/" + this.state.form.id).then((response) => {
       this.setState({ modalEliminar: false });
       this.peticionGet();
     });
@@ -85,14 +85,14 @@ class App extends Component {
   };
 
   seleccionarCliente = (cliente) => {
-    console.log("cliente.cli_fec_nac", cliente.cli_fec_nac.substring(1, 10));
+    console.log("cliente.cli_fec_nac", cliente.cli_fec_nac.substring(0, 10));
     this.setState({
       tipoModal: "actualizar",
       form: {
         id: cliente.cli_id,
         nombre: cliente.cli_nom,
         apellido: cliente.cli_ape,
-        fecha: cliente.cli_fec_nac,
+        fecha: cliente.cli_fec_nac.substring(0, 10),
       },
     });
   };
@@ -247,7 +247,7 @@ class App extends Component {
                 name="fecha"
                 cli_id="fecha"
                 onChange={this.handleChange}
-                value={form ? form.fecha.substring(0, 10) : ""}
+                value={form ? form.fecha : ""}
               />
             </div>
           </ModalBody>
@@ -284,7 +284,7 @@ class App extends Component {
 
         <Modal isOpen={this.state.modalEliminar}>
           <ModalBody>
-            Estás seguro que deseas eliminar a la cliente {form && form.cli_nom}
+            ¿Deseas eliminar al cliente {form && form.nombre}?
           </ModalBody>
           <ModalFooter>
             <button
