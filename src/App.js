@@ -8,7 +8,7 @@ import { faEdit, faTrashAlt } from "@fortawesome/free-solid-svg-icons";
 import { Modal, ModalBody, ModalFooter, ModalHeader } from "reactstrap";
 
 // const url = "http://localhost:3050/";
-const url = "http://34.207.93.169:80/";
+const url = "http://184.73.151.126:80/";
 
 class App extends Component {
   state = {
@@ -128,7 +128,7 @@ class App extends Component {
     return (
       <div className="App">
         <br />
-        <h1>MDPConsulting Clientes CRUDS</h1>
+        <h1>MDPConsulting Clientes CRUD</h1>
         <br />
         <br />
         <div class="row">
