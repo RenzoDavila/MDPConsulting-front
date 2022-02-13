@@ -128,7 +128,7 @@ class App extends Component {
     return (
       <div className="App">
         <br />
-        <h1>MDPConsulting Clientes CRUD</h1>
+        <h1>MDPConsulting Clientes CRUDS</h1>
         <br />
         <br />
         <div class="row">
